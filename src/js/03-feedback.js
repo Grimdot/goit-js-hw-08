@@ -1,6 +1,6 @@
 import throttle from 'lodash.throttle';
-
 const FEEDBACK_KEY = 'feedback-form-state';
+
 const feedbackForm = document.querySelector('.feedback-form');
 let feedbackFormData = {
   email: '',
